@@ -40,7 +40,6 @@ const CoinInfo = ({ coin ,id}) => {
         marginTop: 0,
         padding: 20,
         paddingTop: 0,
-        height:'50vh',
       },
     },
   }));
@@ -116,7 +115,7 @@ const options={
         :(
         <>
        
-          <Line height={200} data={data} options={options}/> 
+          <Line  data={data} options={options}/> 
           <div
               style={{
                 display: "flex",
