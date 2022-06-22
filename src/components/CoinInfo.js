@@ -28,6 +28,7 @@ const CoinInfo = ({ coin ,id}) => {
   const useStyles = makeStyles((theme) => ({
     container: {
       width: "75%",
+     
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
@@ -39,6 +40,7 @@ const CoinInfo = ({ coin ,id}) => {
         marginTop: 0,
         padding: 20,
         paddingTop: 0,
+        height:'50vh',
       },
     },
   }));
@@ -114,7 +116,7 @@ const options={
         :(
         <>
        
-          <Line data={data} options={options}/> 
+          <Line height={200} data={data} options={options}/> 
           <div
               style={{
                 display: "flex",
